@@ -1,3 +1,5 @@
+@import "./../../styles/variaveis.scss";
+
 .menu {
   width: 18%;
  
@@ -32,9 +34,9 @@
   }
  
   a {
-    font-family: "GandhiSansRegular";
+    font-family: $fonte-normal;
     text-decoration: none;
     font-size: 1.125rem;
-    color: #d9d9d9;
+    color: $cor-do-texto;
   }
 }
